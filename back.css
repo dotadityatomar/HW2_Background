@@ -19,20 +19,28 @@ body{
 .home{
     display: inline-block;
     padding: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-left: 135px;
     color: aliceblue;
     font-size: 17px;
 }
+
 .first{
-    background-color: rgba(241, 239, 239, 0.884);
+    background-color: aliceblue;
     text-align: center;
     padding: 10px;
     color: black;
     
 }
+.home:hover{
+    background-color: aliceblue;
+    color: black;
+    padding: 100%x;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
 .im1{
     background-image: url(./image/im1.jpg);
     height: 500px;
@@ -55,12 +63,19 @@ body{
     height: 500px;
 }
 .par{
-    width: 45%;
+    width: 41%;
+    height: 10%;
     display: inline-block;
     color: aliceblue;
+    position: absolute;
+    bottom:-75%;
 }
 .im5{
-    display: inline-block;
+    display:inline-block;
     width: 45%;
     margin:1%;
-    }
+    position: absolute;
+  
+  right: 10%;
+}
+    
